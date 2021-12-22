@@ -1,4 +1,5 @@
 @keyframes ninjawiggle {
+
     0%,
     100% {
         transform: translateX(0);
@@ -131,6 +132,7 @@ button {
 .skor span {
     display: block;
     padding-bottom: 20px;
+    cursor: help;
 }
 
 .skor span+span {
@@ -138,7 +140,8 @@ button {
     border-top: solid 1px #ddd;
 }
 
-.skor .skor-ken, .skor .skor-player {
+.skor .skor-ken, 
+.skor .skor-player {
     font-weight: bold;
 }
 
